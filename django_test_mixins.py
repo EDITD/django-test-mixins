@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.core.cache import cache
 
-import urlparse
+from six.moves.urllib.parse import urlparse
 
 
 class HttpCodeTestCase(TestCase):

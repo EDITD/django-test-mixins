@@ -10,5 +10,6 @@ setup(name='django_test_mixins',
       py_modules=['django_test_mixins'],
       classifiers=[
           'License :: OSI Approved :: BSD License'
-      ]
+      ],
+      install_requires=['six'],
 )
